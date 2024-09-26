@@ -1,1 +1,0 @@
-import{n as s,M as e,L as i,O as t,S as r}from"./components-DnECfmfE.js";function n(){return s.jsxs("html",{children:[s.jsxs("head",{children:[s.jsx("link",{rel:"icon",href:"data:image/x-icon;base64,AA"}),s.jsx(e,{}),s.jsx(i,{}),s.jsx("title",{children:"Todo it"})]}),s.jsxs("body",{children:[s.jsx("h1",{children:"Hello world!"}),s.jsx(t,{}),s.jsx(r,{})]})]})}export{n as default};
