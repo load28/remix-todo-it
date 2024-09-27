@@ -2,21 +2,27 @@
   "name": "remix-todo-it",
   "type": "module",
   "scripts": {
+    "build": "remix vite:build",
     "dev": "node ./server.js",
-    "start": "corss-env NODE_ENV=production node ./server.js"
+    "production": "NODE_ENV=production node -- ./server.js"
   },
   "dependencies": {
     "@remix-run/express": "^2.12.1",
     "@remix-run/node": "^2.12.1",
     "@remix-run/react": "^2.12.1",
+    "@tanstack/react-query": "^5.56.2",
+    "@tanstack/react-query-devtools": "^5.58.0",
     "cross-env": "^7.0.3",
     "express": "^4.21.0",
     "isbot": "4",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "remix-client-cache": "^1.1.0",
+    "use-dehydrated-state": "^0.1.0"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.12.1",
+    "prettier": "^3.3.3",
     "vite": "^5.4.8"
   }
 }
